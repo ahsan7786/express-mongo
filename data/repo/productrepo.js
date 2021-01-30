@@ -24,4 +24,8 @@ const getFilteredData = async (query) => {
   const products = await projection.toArray();
   return products;
 };
+
+const updateRecord = async () => {
+  //todo
+};
 module.exports = { getProducts, getFilteredData };
