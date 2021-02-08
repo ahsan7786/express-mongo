@@ -6,5 +6,9 @@ jobs:
     working_directory: ~/repo
     steps:
       — checkout
-      - run: npm install
-      - run: npm run dragon
+      - run:
+        name: install-npm-packages
+        command: npm install
+      - run:
+          name: run dragon
+          command: npm run dragon
