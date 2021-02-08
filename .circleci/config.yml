@@ -7,5 +7,4 @@ jobs:
     steps:
       — checkout
       - run: npm install
- 
-      — run: npm run dragon
+      - run: npm run dragon
